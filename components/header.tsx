@@ -6,8 +6,10 @@ import { auth } from '@/auth'
 import { Button, buttonVariants } from '@/components/ui/button'
 import {
   IconGitHub,
+  IconHoya,
   IconNextChat,
   IconSeparator,
+  IconUMD,
   IconVercel
 } from '@/components/ui/icons'
 import { UserMenu } from '@/components/user-menu'
@@ -54,26 +56,26 @@ export function Header() {
           <UserOrLogin />
         </React.Suspense>
       </div>
-      {/* <div className="flex items-center justify-end space-x-2">
+      <div className="flex items-center justify-end space-x-2">
         <a
           target="_blank"
-          href="https://github.com/vercel/nextjs-ai-chatbot/"
+          href="https://hoyahacks.georgetown.domains/"
           rel="noopener noreferrer"
           className={cn(buttonVariants({ variant: 'outline' }))}
         >
-          <IconGitHub />
-          <span className="hidden ml-2 md:flex">GitHub</span>
+          <IconHoya />
+          <span className="hidden ml-2 md:flex">HoyaHacks 2024</span>
         </a>
         <a
-          href="https://github.com/vercel/nextjs-ai-chatbot/"
+          href="https://umd.edu/"
           target="_blank"
           className={cn(buttonVariants())}
         >
-          <IconVercel className="mr-2" />
-          <span className="hidden sm:block">Deploy to Vercel</span>
-          <span className="sm:hidden">Deploy</span>
+          <IconUMD className="mr-2" />
+          <span className="hidden sm:block">University of Maryland</span>
+          <span className="sm:hidden">UMD</span>
         </a>
-      </div> */}
+      </div>
     </header>
   )
 }
