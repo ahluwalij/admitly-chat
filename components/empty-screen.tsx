@@ -57,8 +57,8 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
         <p className="mb-2 leading-normal text-muted-foreground">
           This is an AI chatbot built to answer any questions you may have about applying to UMD. This is built with{' '}
           <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{' '}
-          <ExternalLink href="https://vercel.com/storage/kv">
-            Vercel KV
+          <ExternalLink href="https://www.mongodb.com/atlas/database">
+            MongoDB Atlas
           </ExternalLink>
           .
         </p>
